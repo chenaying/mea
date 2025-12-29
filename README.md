@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Transferable Decoding with Visual Entities for Zero-Shot Image Captioning, ICCV 2023
 
 **Authors**: [Junjie Fei](https://feielysia.github.io/), [Teng Wang](http://ttengwang.com/), [Jinrui Zhang](https://github.com/zjr2000), Zhenyu He, Chengjie Wang, [Feng Zheng](https://faculty.sustech.edu.cn/fengzheng/)
