@@ -143,7 +143,8 @@ def main(args) -> None:
     else:
         embeddings = continuous_embeddings
 
-    if 'gpt' in language_model_id:
+    # Check if it's GPT model (handle both Hugging Face ID and local path)
+    if 'gpt' in args.language_model.lower() or 'gpt' in language_model_id.lower():
         if not args.using_greedy_search:
             sentence = beam_search(embeddings = embeddings, tokenizer = tokenizer, beam_width = args.beam_width, model = model.gpt) # List[str]
             sentence = sentence[0] # selected top 1
