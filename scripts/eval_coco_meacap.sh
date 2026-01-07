@@ -42,4 +42,3 @@ $OTHER_ARGS \
 
 echo "==========================COCO EVAL (MeaCap)================================"
 python evaluation/cocoeval.py --result_file_path $COCO_OUT_PATH/coco*_meacap.json |& tee -a  ${COCO_LOG_FILE}
-
